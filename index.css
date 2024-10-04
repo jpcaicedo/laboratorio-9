@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#userInputs{
+    display: flex;
+    gap: 3rem;
+}
+#chatContainer{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 70%;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    margin-top: 4rem;
+}
